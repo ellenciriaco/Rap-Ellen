@@ -5,6 +5,7 @@ body{
     margin: 0px;
     margin-bottom: 100px;
 }
+
 .chamada{
     background: rgb(207, 166, 191);
     margin-top: 80px;
@@ -12,9 +13,36 @@ body{
     display: flex;
     justify-content: center;
 }
+
 header{
     color:rgb(233, 223, 223);
     font-size: 40px;
     border-bottom: solid 3px rgb(255, 255, 255);
     padding: 20px;
+}
+
+.categoria{
+background: plum;
+padding-left: 20px;
+padding-left: 20px;
+margin-top: 50px;
+}
+.categoria-videos{
+   display: flex;
+   overflow-x: auto;
+   gap: 10px;
+
+}
+.categoria-videos img{
+    height: 200px;
+    opacity: 0.5;
+    
+}
+.categoria-videos img :hover{
+    opacity: 1.0;
+    border: 3px solid rgb(34, 32, 32);
+
+}
+h2{
+    font-size: 25px;
 }
